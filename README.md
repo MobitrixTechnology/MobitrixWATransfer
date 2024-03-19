@@ -9,7 +9,7 @@ Convert WhatsApp/WhatsApp Business data from Android to iPhone backup format. Yo
 
 - libplist
 - sqlite3
-- 
+
 ## Usage:
 MobitrixWATransfer.exe 
 
