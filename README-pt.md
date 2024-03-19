@@ -10,13 +10,18 @@ Converta dados do WhatsApp/WhatsApp Business de Android para formato de backup d
 
 - libplist
 - sqlite3
-- 
+  
 ## Uso:
 MobitrixWATransfer.exe 
+
 --androiddbpath msgstore.db File[Must] 
+
 --androidmediapath WhatsApp media path 
+
 --iospath Old data in iPhone 
+
 --datapath Out Path[Must] 
+
 --watype 0:WhatsApp 1:WhatsApp Business[Must]
 
 ## Licença:
