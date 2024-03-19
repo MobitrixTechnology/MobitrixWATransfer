@@ -12,11 +12,17 @@ Convert WhatsApp/WhatsApp Business data from Android to iPhone backup format. Yo
 - 
 ## Usage:
 MobitrixWATransfer.exe 
+
 --androiddbpath msgstore.db File[Must] 
+
 --androidmediapath WhatsApp media path 
+
 --iospath Old data in iPhone 
+
 --datapath Out Path[Must] 
+
 --watype 0:WhatsApp 1:WhatsApp Business[Must]
+
 
 ## License:
 You may not use this software or its derivative works for commercial purposes in any form. Commercial purposes include, but are not limited to, selling the software, using the software to provide commercial services, or integrating the software into commercial products.
