@@ -1,4 +1,5 @@
-**[Deutsch](README-de.md)**
+**[Deutsch](README-de.md)**  **[Italiano](README-it.md)** **[Nederlands](README-nl.md)**  **[Português](README-pt.md)**
+
 Convert WhatsApp/WhatsApp Business data from Android to iPhone backup format. You can directly restore to your iPhone using tools like iTunes, Mobitrix Toolkit, etc.
 
 ## Compilation environment:
