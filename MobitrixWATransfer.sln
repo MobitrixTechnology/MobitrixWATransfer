@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MobitrixWATransfer", "MobitrixWATransfer\MobitrixWATransfer.vcxproj", "{E2C73FE6-82BD-4B7A-AF4D-4884F3364CC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2C73FE6-82BD-4B7A-AF4D-4884F3364CC2}.Debug|x64.ActiveCfg = Debug|x64
+		{E2C73FE6-82BD-4B7A-AF4D-4884F3364CC2}.Debug|x64.Build.0 = Debug|x64
+		{E2C73FE6-82BD-4B7A-AF4D-4884F3364CC2}.Debug|x86.ActiveCfg = Debug|Win32
+		{E2C73FE6-82BD-4B7A-AF4D-4884F3364CC2}.Debug|x86.Build.0 = Debug|Win32
+		{E2C73FE6-82BD-4B7A-AF4D-4884F3364CC2}.Release|x64.ActiveCfg = Release|x64
+		{E2C73FE6-82BD-4B7A-AF4D-4884F3364CC2}.Release|x64.Build.0 = Release|x64
+		{E2C73FE6-82BD-4B7A-AF4D-4884F3364CC2}.Release|x86.ActiveCfg = Release|Win32
+		{E2C73FE6-82BD-4B7A-AF4D-4884F3364CC2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AD2D1C8-3B27-4905-85A4-AC957C45C9BA}
+	EndGlobalSection
+EndGlobal
