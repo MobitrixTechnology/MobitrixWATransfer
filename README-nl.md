@@ -9,13 +9,18 @@ Converteer WhatsApp/WhatsApp Business gegevens van Android naar iPhone backup fo
 
 - libplist
 - sqlite3
-- 
+  
 ## Gebruik:
 MobitrixWATransfer.exe 
+
 --androiddbpath msgstore.db File[Must] 
+
 --androidmediapath WhatsApp media path 
+
 --iospath Old data in iPhone 
+
 --datapath Out Path[Must] 
+
 --watype 0:WhatsApp 1:WhatsApp Business[Must]
 
 ## Licentie:
