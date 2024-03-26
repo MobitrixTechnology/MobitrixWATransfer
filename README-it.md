@@ -1,6 +1,12 @@
 **[English](README.md)** **[Deutsch](README-de.md)** **[Português](README-pt.md)**  **[Nederlands](README-nl.md)**
 
-Converti i dati di WhatsApp/WhatsApp Business da Android al formato di backup per iPhone. Puoi ripristinare direttamente sul tuo iPhone utilizzando strumenti come iTunes, Mobitrix Toolkit, ecc.
+Un assistente alla migrazione di WhatsApp/WhatsApp Business
+
+1、Converti i dati delle chat di WhatsApp/WhatsApp Business dal formato di backup di Android al formato di iPhone.
+
+2、Converti i dati delle chat di WhatsApp/WhatsApp Business dal backup dell'iPhone al formato dati Android.
+
+Puoi utilizzare iTunes, Mobitrix Toolkit, WA personalizzato di Mobitrix e altri strumenti per eseguire il ripristino direttamente sul tuo nuovo dispositivo.
 
 ## Ambiente di compilazione:
 - C++
@@ -13,15 +19,25 @@ Converti i dati di WhatsApp/WhatsApp Business da Android al formato di backup pe
 ## Utilizzo:
 MobitrixWATransfer.exe 
 
---androiddbpath msgstore.db File[Must] 
+[Android->IOS]
 
---androidmediapath WhatsApp media path 
+--androiddbpath msgstore.db File[Must]
 
---iospath Old data in iPhone 
+--androidmediapath WhatsApp media path
 
---datapath Out Path[Must] 
+--iospath Old data in iPhone
+
+--datapath Out Path[Must]
 
 --watype 0:WhatsApp 1:WhatsApp Business[Must]
+
+[IOS->Android]
+
+--iosbackpath[BackUp Path]
+
+--datapath[Out Path]
+
+--watype[0:WhatsApp 1:WhatsApp Business]
 
 
 ## Licenza:
