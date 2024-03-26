@@ -3,6 +3,7 @@
 Ein WhatsApp/WhatsApp Business-Migrationsassistent
 
 1、Konvertieren Sie WhatsApp/WhatsApp Business-Chatdaten vom Android- in das iPhone-Sicherungsformat.
+
 2、Konvertieren Sie WhatsApp/WhatsApp Business-Chatdaten aus dem iPhone-Backup in das Android-Datenformat.
 
  Sie können iTunes, Mobitrix Toolkit, das benutzerdefinierte WA von Mobitrix und andere Tools verwenden, um die Wiederherstellung direkt auf Ihrem neuen Gerät durchzuführen.
