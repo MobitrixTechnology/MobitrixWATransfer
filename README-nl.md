@@ -1,6 +1,12 @@
 **[English](README.md)** **[Deutsch](README-de.md)** **[Italiano](README-it.md)** **[Português](README-pt.md)**
 
-Converteer WhatsApp/WhatsApp Business gegevens van Android naar iPhone backup formaat. Je kunt direct herstellen naar je iPhone met behulp van tools zoals iTunes, Mobitrix Toolkit, etc.
+Een WhatsApp/WhatsApp Zakelijke migratieassistent
+
+1、Converteer WhatsApp/WhatsApp Business-chatgegevens van Android naar iPhone-back-upformaat.
+
+2、Converteer WhatsApp/WhatsApp Business-chatgegevens van iPhone-back-up naar Android-gegevensformaat.
+
+U kunt iTunes, Mobitrix Toolkit, Mobitrix's aangepaste WA en andere tools gebruiken om rechtstreeks naar uw nieuwe apparaat te herstellen.
 
 ## Compilatieomgeving:
 - C++
@@ -13,15 +19,25 @@ Converteer WhatsApp/WhatsApp Business gegevens van Android naar iPhone backup fo
 ## Gebruik:
 MobitrixWATransfer.exe 
 
---androiddbpath msgstore.db File[Must] 
+[Android->IOS]
 
---androidmediapath WhatsApp media path 
+--androiddbpath msgstore.db File[Must]
 
---iospath Old data in iPhone 
+--androidmediapath WhatsApp media path
 
---datapath Out Path[Must] 
+--iospath Old data in iPhone
+
+--datapath Out Path[Must]
 
 --watype 0:WhatsApp 1:WhatsApp Business[Must]
+
+[IOS->Android]
+
+--iosbackpath[BackUp Path]
+
+--datapath[Out Path]
+
+--watype[0:WhatsApp 1:WhatsApp Business]
 
 ## Licentie:
 Je mag deze software of afgeleide werken niet gebruiken voor commerciële doeleinden in enige vorm. Commerciële doeleinden omvatten, maar zijn niet beperkt tot, het verkopen van de software, het gebruiken van de software om commerciële diensten te leveren, of het integreren van de software in commerciële producten.
