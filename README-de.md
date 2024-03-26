@@ -18,15 +18,25 @@ Ein WhatsApp/WhatsApp Business-Migrationsassistent
 ## Verwendung:
 MobitrixWATransfer.exe 
 
---androiddbpath msgstore.db File[Must] 
+[Android->IOS]
 
---androidmediapath WhatsApp media path 
+--androiddbpath msgstore.db File[Must]
 
---iospath Old data in iPhone 
+--androidmediapath WhatsApp media path
 
---datapath Out Path[Must] 
+--iospath Old data in iPhone
+
+--datapath Out Path[Must]
 
 --watype 0:WhatsApp 1:WhatsApp Business[Must]
+
+[IOS->Android]
+
+--iosbackpath[BackUp Path]
+
+--datapath[Out Path]
+
+--watype[0:WhatsApp 1:WhatsApp Business]
 
 
 ## Lizenz:
