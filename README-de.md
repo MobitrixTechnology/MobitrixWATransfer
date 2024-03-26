@@ -1,6 +1,11 @@
 **[English](README.md)** **[Italiano](README-it.md)** **[Nederlands](README-nl.md)**  **[Português](README-pt.md)**
 
-Konvertieren Sie WhatsApp/WhatsApp Business-Daten von Android in das iPhone-Backup-Format. Sie können Ihre Daten direkt auf Ihrem iPhone mit Tools wie iTunes, Mobitrix Toolkit usw. wiederherstellen.
+Ein WhatsApp/WhatsApp Business-Migrationsassistent
+
+1、Konvertieren Sie WhatsApp/WhatsApp Business-Chatdaten vom Android- in das iPhone-Sicherungsformat.
+2、Konvertieren Sie WhatsApp/WhatsApp Business-Chatdaten aus dem iPhone-Backup in das Android-Datenformat.
+
+ Sie können iTunes, Mobitrix Toolkit, das benutzerdefinierte WA von Mobitrix und andere Tools verwenden, um die Wiederherstellung direkt auf Ihrem neuen Gerät durchzuführen.
 ## Kompilierungsumgebung:
 - C++
 - Visual Studio 2019
