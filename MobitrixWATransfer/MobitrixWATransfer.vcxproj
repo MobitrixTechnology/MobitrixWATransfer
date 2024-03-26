@@ -50,7 +50,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -84,6 +84,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>../include;$(IncludePath)</IncludePath>
+    <LibraryPath>../lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -132,7 +134,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -143,25 +145,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="analyiosapp.cpp" />
     <ClCompile Include="android2ios.cpp" />
     <ClCompile Include="BaseLock.cpp" />
     <ClCompile Include="BaseLog.cpp" />
+    <ClCompile Include="javaSerialize.cpp" />
+    <ClCompile Include="mbdb.cpp" />
     <ClCompile Include="MobitrixWATransfer.cpp" />
     <ClCompile Include="plistapi.cpp" />
     <ClCompile Include="publicfun.cpp" />
     <ClCompile Include="sha1.cpp" />
+    <ClCompile Include="waios2android.cpp" />
     <ClCompile Include="wasqliteparsing.cpp" />
     <ClCompile Include="zmd5.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="analyiosapp.h" />
     <ClInclude Include="android2ios.h" />
     <ClInclude Include="Base64.h" />
     <ClInclude Include="BaseLock.h" />
     <ClInclude Include="BaseLog.h" />
     <ClInclude Include="iosdatastruct.h" />
+    <ClInclude Include="javaSerialize.h" />
+    <ClInclude Include="mbdb.h" />
     <ClInclude Include="plistapi.h" />
     <ClInclude Include="publicfun.h" />
     <ClInclude Include="sha1.h" />
+    <ClInclude Include="waios2android.h" />
     <ClInclude Include="wasqliteparsing.h" />
     <ClInclude Include="zmd5.h" />
   </ItemGroup>

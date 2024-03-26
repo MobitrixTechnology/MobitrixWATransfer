@@ -42,6 +42,18 @@
     <ClCompile Include="zmd5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="waios2android.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="javaSerialize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="analyiosapp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mbdb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="android2ios.h">
@@ -73,6 +85,18 @@
     </ClInclude>
     <ClInclude Include="publicfun.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="waios2android.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="javaSerialize.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="analyiosapp.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mbdb.h">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -288,12 +288,6 @@ int android2ios::read_work()
 
 
 
-	AWriteLog("androidtoios", "get Android  message count: %d", m_totalnum);
-	if (m_totalnum < 300 ) {
-		AWriteLog("androidtoios", "get Android  message error");
-		return -1;
-	}
-
 
 	initrestoredata();
 
